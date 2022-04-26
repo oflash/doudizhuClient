@@ -1,0 +1,10 @@
+**.meta
+.vscode
+/*
+!/Assets
+!/Build
+!/ProjectSettings
+!.gitignore
+!README.md
+!.editorconfig
+!/*.csproj
