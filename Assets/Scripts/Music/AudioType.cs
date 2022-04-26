@@ -1,0 +1,24 @@
+
+public enum AudioType
+{
+	None,
+
+	/* Guide */
+	GuideAiXin, GuideBeiShuDeFen, GuideBenJuDeFen, GuideBuChongAiXin, GuideDaoJuGouMai, GuideDeFenJiQiao, GuideFuHuo, GuideJie_suan_jiangli, GuideJieShao, GuideJinChang, GuideJingJiTiYan, GuideJingYan, GuideLi_shi_zui_gao_fen, GuideLi_shi_zui_gao_fen2, GuideLianShengJiaCheng, GuidePaiXingDeFen, GuideQiangFen, GuideShengJi, GuideShengJiWanCheng, GuideShiBaiBuDeFen, GuideShunZiDeFen, GuideShunZiDeFen2, GuideXuanZeJueSe, GuideXunBao, GuideYaZhiDeFen, GuideYy_chaozan, GuideYy_jiayou, GuideYy_zhenbang, GuideZenSongJiangLi, GuideZhenShiDuiJu,
+
+	/* Avatar */
+	Avatar10000000_gexing, Avatar10010000_gexing, Avatar10020000_gexing, Avatar10030000_gexing, Avatar10040000_gexing, Avatar10050000_gexing, Avatar10060000_gexing, Avatar10070000_gexing, Avatar10140000_gexing, Avatar12000000_gexing, Avatar12010000_gexing,
+
+	/* Man */
+	Man_1, Man_10, Man_11, Man_12, Man_13, Man_14, Man_15, Man_2, Man_3, Man_4, Man_5, Man_6, Man_7, Man_8, Man_9, Man_baojing1, Man_baojing2, Man_bujiabei, Man_buyao1, Man_buyao2, Man_buyao3, Man_buyao4, Man_chaojijiabei, Man_Chat_0, Man_Chat_1, Man_Chat_10, Man_Chat_2, Man_Chat_3, Man_Chat_4, Man_Chat_5, Man_Chat_6, Man_Chat_7, Man_Chat_8, Man_Chat_9, Man_dani1, Man_dani2, Man_dani3, Man_dui1, Man_dui10, Man_dui11, Man_dui12, Man_dui13, Man_dui2, Man_dui3, Man_dui4, Man_dui5, Man_dui6, Man_dui7, Man_dui8, Man_dui9, Man_feiji, Man_jiabei, Man_liandui, Man_NoOrder, Man_NoRob, Man_Order, Man_Rob1, Man_Rob2, Man_Rob3, Man_sandaiyi, Man_sandaiyidui, Man_Share, Man_shunzi, Man_sidaier, Man_sidailiangdui, Man_tuple1, Man_tuple10, Man_tuple11, Man_tuple12, Man_tuple13, Man_tuple2, Man_tuple3, Man_tuple4, Man_tuple5, Man_tuple6, Man_tuple7, Man_tuple8, Man_tuple9, Man_wangzha, Man_zhadan,
+
+	/* Woman */
+	Woman_1, Woman_10, Woman_11, Woman_12, Woman_13, Woman_14, Woman_15, Woman_2, Woman_3, Woman_4, Woman_5, Woman_6, Woman_7, Woman_8, Woman_9, Woman_baojing1, Woman_baojing2, Woman_bujiabei, Woman_buyao1, Woman_buyao2, Woman_buyao3, Woman_buyao4, Woman_chaojijiabei, Woman_Chat_0, Woman_Chat_1, Woman_Chat_10, Woman_Chat_2, Woman_Chat_3, Woman_Chat_4, Woman_Chat_5, Woman_Chat_6, Woman_Chat_7, Woman_Chat_8, Woman_Chat_9, Woman_dani1, Woman_dani2, Woman_dani3, Woman_dui1, Woman_dui10, Woman_dui11, Woman_dui12, Woman_dui13, Woman_dui2, Woman_dui3, Woman_dui4, Woman_dui5, Woman_dui6, Woman_dui7, Woman_dui8, Woman_dui9, Woman_feiji, Woman_jiabei, Woman_liandui, Woman_NoOrder, Woman_NoRob, Woman_Order, Woman_Rob1, Woman_Rob2, Woman_Rob3, Woman_sandaiyi, Woman_sandaiyidui, Woman_Share, Woman_shunzi, Woman_sidaier, Woman_sidailiangdui, Woman_tuple1, Woman_tuple10, Woman_tuple11, Woman_tuple12, Woman_tuple13, Woman_tuple2, Woman_tuple3, Woman_tuple4, Woman_tuple5, Woman_tuple6, Woman_tuple7, Woman_tuple8, Woman_tuple9, Woman_wangzha, Woman_zhadan,
+
+	/* Special */
+	Special_alert, Special_Baojingjiacheng, Special_baoxianghuangdong, Special_baoxiangwupintanchu, Special_BeanChanged, Special_BeanFly, Special_BeanLess, Special_BeanMore, Special_Bomb, Special_Bomb_New, Special_CancelOrReturn, Special_Chaojijiabei, Special_Chuntian, Special_clap, Special_daojufeixing, Special_Dengjitisheng, Special_Disable, Special_Dispatch, Special_Escape, Special_flower, Special_give, Special_Goumaichenggong, Special_Goumaishibai, Special_Haoyoutongwan, Special_Haoyouweiguan, Special_huodedaoju, Special_huodehuanledou, Special_huodetili, Special_Huodezuanshi, Special_Jingjidengdai, Special_jingjijiesuan_daojishi, Special_jingjijiesuan_defenjiacheng, Special_jingjijiesuan_dengjijiacheng, Special_jingjijiesuan_jiachengtubiao, Special_jingjijiesuan_jindutiao, Special_jingjijiesuan_shenglitanchuang1, Special_jingjijiesuan_shenglitanchuang2, Special_jingjijiesuan_sss, Special_jingjijiesuan_suixin, Special_jingjijiesuan_wenzizhuiluo, Special_jingjijiesuan_xiapai, Special_jingjijiesuan_zuichushanguang, Special_jingjijiesuan_zuigao, Special_Jingjikaishi, Special_Jingjitishi, Special_jingjiVS, Special_Jueseshengji, Special_Jujianshengli, Special_laizixuanze, Special_Lianshengjiaxin, Special_Long_Bomb, Special_menu, Special_Mingpaijiabei, Special_Multiply, Special_Ok, Special_Paimingchaoyue, Special_Paixingjiafen, Special_plane, Special_querendizhu, Special_Remind, Special_SelectCard, Special_ShengLiDeDou, Special_Shibaibufen, Special_Shibaidiaoxin, Special_Shibaifuhuo, Special_shiyonglianshengfu, Special_stamp, Special_star, Special_SysReturnFail, Special_SysReturnOk, Special_TakePhoto, Special_Tiancidizhu,
+
+	/* MusicEx */
+	MusicEx_Exciting, MusicEx_Lose, MusicEx_Normal, MusicEx_Normal2, MusicEx_openinganimation, MusicEx_Welcome, MusicEx_Win,
+
+}

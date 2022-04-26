@@ -1,0 +1,24 @@
+[
+	{
+		"spriteType": "Header",
+		"paths": [
+			"Header/10000000",
+			"Header/10000000",
+			"Header/10010000",
+			"Header/10020000",
+			"Header/10030000",
+			"Header/10040000",
+			"Header/10050000",
+			"Header/10060000",
+			"Header/10070000",
+			"Header/10140000",
+			"Header/10150000",
+			"Header/10160000",
+			"Header/10170000",
+			"Header/10180000",
+			"Header/12000000",
+			"Header/12010000",
+			"Header/12040000"
+		]
+	}
+]

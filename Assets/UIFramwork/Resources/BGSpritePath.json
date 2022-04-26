@@ -1,0 +1,32 @@
+[
+	{
+		"spriteType": "BG",
+		"paths": [
+			"BG/Common_BG1_2x",
+			"BG/Common_BG2_2x",
+			"BG/Common_BG3_2x",
+			"BG/Common_BG4_2x",
+			"BG/Common_BG5_2x",
+			"BG/Common_BG6_2x",
+			"BG/Common_BG7_2x",
+			"BG/Common_BG8_2x",
+			"BG/Common_BG9_2x",
+			"BG/Common_BG10_2x"
+		]
+	},
+	{
+		"spriteType": "mBG",
+		"paths": [
+			"BG/Scene_Setting1_2x",
+			"BG/Scene_Setting2_2x",
+			"BG/Scene_Setting3_2x",
+			"BG/Scene_Setting4_2x",
+			"BG/Scene_Setting5_2x",
+			"BG/Scene_Setting6_2x",
+			"BG/Scene_Setting7_2x",
+			"BG/Scene_Setting8_2x",
+			"BG/Scene_Setting9_2x",
+			"BG/Scene_Setting10_2x"
+		]
+	}
+]

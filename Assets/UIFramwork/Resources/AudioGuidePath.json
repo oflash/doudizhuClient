@@ -1,0 +1,122 @@
+[
+	{
+		"audioType": "GuideAiXin",
+		"path": "最新音效/Guide/aiXin"
+	},
+	{
+		"audioType": "GuideBeiShuDeFen",
+		"path": "最新音效/Guide/beiShuDeFen"
+	},
+	{
+		"audioType": "GuideBenJuDeFen",
+		"path": "最新音效/Guide/benJuDeFen"
+	},
+	{
+		"audioType": "GuideBuChongAiXin",
+		"path": "最新音效/Guide/buChongAiXin"
+	},
+	{
+		"audioType": "GuideDaoJuGouMai",
+		"path": "最新音效/Guide/daoJuGouMai"
+	},
+	{
+		"audioType": "GuideDeFenJiQiao",
+		"path": "最新音效/Guide/deFenJiQiao"
+	},
+	{
+		"audioType": "GuideFuHuo",
+		"path": "最新音效/Guide/fuHuo"
+	},
+	{
+		"audioType": "GuideJie_suan_jiangli",
+		"path": "最新音效/Guide/Jie_suan_jiangli"
+	},
+	{
+		"audioType": "GuideJieShao",
+		"path": "最新音效/Guide/jieShao"
+	},
+	{
+		"audioType": "GuideJinChang",
+		"path": "最新音效/Guide/jinChang"
+	},
+	{
+		"audioType": "GuideJingJiTiYan",
+		"path": "最新音效/Guide/jingJiTiYan"
+	},
+	{
+		"audioType": "GuideJingYan",
+		"path": "最新音效/Guide/jingYan"
+	},
+	{
+		"audioType": "GuideLi_shi_zui_gao_fen",
+		"path": "最新音效/Guide/li_shi_zui_gao_fen"
+	},
+	{
+		"audioType": "GuideLi_shi_zui_gao_fen2",
+		"path": "最新音效/Guide/li_shi_zui_gao_fen2"
+	},
+	{
+		"audioType": "GuideLianShengJiaCheng",
+		"path": "最新音效/Guide/lianShengJiaCheng"
+	},
+	{
+		"audioType": "GuidePaiXingDeFen",
+		"path": "最新音效/Guide/paiXingDeFen"
+	},
+	{
+		"audioType": "GuideQiangFen",
+		"path": "最新音效/Guide/qiangFen"
+	},
+	{
+		"audioType": "GuideShengJi",
+		"path": "最新音效/Guide/shengJi"
+	},
+	{
+		"audioType": "GuideShengJiWanCheng",
+		"path": "最新音效/Guide/shengJiWanCheng"
+	},
+	{
+		"audioType": "GuideShiBaiBuDeFen",
+		"path": "最新音效/Guide/shiBaiBuDeFen"
+	},
+	{
+		"audioType": "GuideShunZiDeFen",
+		"path": "最新音效/Guide/shunZiDeFen"
+	},
+	{
+		"audioType": "GuideShunZiDeFen2",
+		"path": "最新音效/Guide/shunZiDeFen2"
+	},
+	{
+		"audioType": "GuideXuanZeJueSe",
+		"path": "最新音效/Guide/xuanZeJueSe"
+	},
+	{
+		"audioType": "GuideXunBao",
+		"path": "最新音效/Guide/xunBao"
+	},
+	{
+		"audioType": "GuideYaZhiDeFen",
+		"path": "最新音效/Guide/yaZhiDeFen"
+	},
+	{
+		"audioType": "GuideYy_chaozan",
+		"path": "最新音效/Guide/yy_chaozan"
+	},
+	{
+		"audioType": "GuideYy_jiayou",
+		"path": "最新音效/Guide/yy_jiayou"
+	},
+	{
+		"audioType": "GuideYy_zhenbang",
+		"path": "最新音效/Guide/yy_zhenbang"
+	},
+	{
+		"audioType": "GuideZenSongJiangLi",
+		"path": "最新音效/Guide/zenSongJiangLi"
+	},
+	{
+		"audioType": "GuideZhenShiDuiJu",
+		"path": "最新音效/Guide/zhenShiDuiJu"
+	}
+]

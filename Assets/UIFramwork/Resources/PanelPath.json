@@ -1,0 +1,50 @@
+[
+	{
+		"uiPanelType": "CoverBG",
+		"path": "UIPanelPrefab/CoverBG"
+	},
+	{
+		"uiPanelType": "RoomBG",
+		"path": "UIPanelPrefab/RoomBG"
+	},
+	{
+		"uiPanelType": "GamePanel",
+		"path": "UIPanelPrefab/GamePanel"
+	},
+	{
+		"uiPanelType": "PlayerInfoPanel",
+		"path": "UIPanelPrefab/PlayerInfoPanel"
+	},
+	{
+		"uiPanelType": "PromptPanel",
+		"path": "UIPanelPrefab/PromptPanel"
+	},
+	{
+		"uiPanelType": "LoadingPanel",
+		"path": "UIPanelPrefab/LoadingPanel"
+	},
+	{
+		"uiPanelType": "SelectScenePanel",
+		"path": "UIPanelPrefab/SelectScenePanel"
+	},
+	{
+		"uiPanelType": "JoinRoomPanel",
+		"path": "UIPanelPrefab/JoinRoomPanel"
+	},
+	{
+		"uiPanelType": "LinkPanel",
+		"path": "UIPanelPrefab/LinkPanel"
+	},
+	{
+		"uiPanelType": "HeaderPanel",
+		"path": "UIPanelPrefab/HeaderPanel"
+	},
+	{
+		"uiPanelType": "TopLayerPanel",
+		"path": "UIPanelPrefab/TopLayerPanel"
+	},
+	{
+		"uiPanelType": "GameOverPanel",
+		"path": "UIPanelPrefab/GameOverPanel"
+	}
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"audioType": "MusicEx_Exciting",
+		"path": "最新音效/MusicEx/MusicEx_Exciting"
+	},
+	{
+		"audioType": "MusicEx_Lose",
+		"path": "最新音效/MusicEx/MusicEx_Lose"
+	},
+	{
+		"audioType": "MusicEx_Normal",
+		"path": "最新音效/MusicEx/MusicEx_Normal"
+	},
+	{
+		"audioType": "MusicEx_Normal2",
+		"path": "最新音效/MusicEx/MusicEx_Normal2"
+	},
+	{
+		"audioType": "MusicEx_openinganimation",
+		"path": "最新音效/MusicEx/MusicEx_openinganimation"
+	},
+	{
+		"audioType": "MusicEx_Welcome",
+		"path": "最新音效/MusicEx/MusicEx_Welcome"
+	},
+	{
+		"audioType": "MusicEx_Win",
+		"path": "最新音效/MusicEx/MusicEx_Win"
+	}
+]

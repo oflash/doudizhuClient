@@ -1,0 +1,38 @@
+[
+	{
+		"prefabType": "Card",
+		"path": "Prefab/Card"
+	},
+	{
+		"prefabType": "feiji",
+		"path": "Prefab/feiji"
+	},
+	{
+		"prefabType": "huojian",
+		"path": "Prefab/huojian"
+	},
+	{
+		"prefabType": "zhadan",
+		"path": "Prefab/zhadan"
+	},
+	{
+		"prefabType": "Scene_Select",
+		"path": "Prefab/Scene_Select"
+	},
+	{
+		"prefabType": "MPlayer0",
+		"path": "Prefab/MPlayer0"
+	},
+	{
+		"prefabType": "MPlayer1",
+		"path": "Prefab/MPlayer1"
+	},
+	{
+		"prefabType": "WPlayer0",
+		"path": "Prefab/WPlayer0"
+	},
+	{
+		"prefabType": "WPlayer1",
+		"path": "Prefab/WPlayer1"
+	}
+]
