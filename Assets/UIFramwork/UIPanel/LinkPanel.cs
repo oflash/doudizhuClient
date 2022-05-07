@@ -104,7 +104,7 @@ public class LinkPanel : BasePanel
 					ip = "127.0.0.1";
 #if UNITY_ANDROID || UNITY_STANDALONE_WIN
 					// ip = "47.110.129.92";
-					ip = "43.138.162.204";
+					ip = "liuzhiyi.me";
 #endif
 				//	ip = "127.0.0.1";
 					port = 9876;

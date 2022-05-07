@@ -76,9 +76,9 @@ public class ClientManager : BaseManager
 			foreach (string msg in msgs) {
 				Debug.Log(msg);
 				Content content = GetReceiveMessage(msg);       // 收到服务器发送过来的响应
-				Debug.Log("1111111111111111111111111111");
+				// Debug.Log("1111111111111111111111111111");
 				gameFacade.HandleResponse(content);
-				Debug.Log("22222222222222222222222");
+				// Debug.Log("22222222222222222222222");
 			}
 
 		} catch (Exception e) {
