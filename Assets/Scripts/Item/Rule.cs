@@ -177,36 +177,35 @@ public class Rule
 
 		// Debug.Log("飞机带单");
 		// 飞机带单
-		if (list.Count >= 8 && list.Count % 4 == 0) {
-			int m = list.Count / 4;     // 三条个数
+	if (list.Count >= 8 && list.Count % 4 == 0) {
+		int m = list.Count / 4;     // 三条个数
 
-			for (int i = 0; i <= m; i++) {
-				bool feiji = true;
-				for (int j = i; j < 3 * m + i; j += 3) {
-					if (list[j].grade >= 12) {                                                          // 2，小王，大王
+		for (int i = 0; i <= m; i++) {
+			bool feiji = true;
+			for (int j = i; j < 3 * m + i; j += 3) {
+				if (list[j].grade >= 12) {                                                          // 2，小王，大王
+					feiji = false;
+					break;
+				}
+				if (list[j].grade != list[j + 1].grade || list[j].grade != list[j + 2].grade) {     // 不成三
+					feiji = false;
+					break;
+				}
+				if (j > i) {
+					if (list[j].grade - list[j - 3].grade != -1) {                                  // 不相邻
 						feiji = false;
 						break;
-					}
-					if (list[j].grade != list[j + 1].grade || list[j].grade != list[j + 2].grade) {     // 不成三
-						feiji = false;
-						break;
-					}
-					if (j >= 3) {
-						if (list[j].grade - list[j - 3].grade != -1) {                                  // 不相邻
-							feiji = false;
-							break;
-						}
 					}
 				}
-				if (feiji) return CardType.feiJiDai;
 			}
+			if (feiji) return CardType.feiJiDai;
 		}
+	}
 
 		// Debug.Log("飞机带对");
 		// 飞机带对
 		if (list.Count >= 10 && list.Count % 5 == 0) {
 			int m = list.Count / 5;     // 三条个数
-
 
 			for (int i = 0; i <= m; i++) {
 				bool feiji = true;
@@ -219,7 +218,7 @@ public class Rule
 						feiji = false;
 						break;
 					}
-					if (j >= 3) {
+					if (j > i * 2) {
 						if (list[j].grade - list[j - 3].grade != -1) {                                  // 不相邻
 							feiji = false;
 							break;
@@ -278,7 +277,7 @@ public class Rule
 				if (list.Count % 4 == 0) {
 					m = list.Count / 4;
 				} else {
-					m = list.Count / 5;
+					m = 2 * list.Count / 5;
 				}
 				// 由于一种牌最多4张，只需比较m位置grade即可
 				return list[m].grade > prev[m].grade;

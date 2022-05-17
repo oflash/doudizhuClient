@@ -23,7 +23,6 @@ public class DoubleRequest : BaseRequest
 	/// <param name="num">加倍倍数</param>
 	public void RequestDouble(int num) {
 		StartCoroutine(Double(num));
-
 	}
 
 	IEnumerator Double(int num) {

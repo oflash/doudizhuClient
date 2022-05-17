@@ -74,8 +74,5 @@ public class CreateRoomRequest : BaseRequest
 
 			// gameFacade.DisconnectServer();      // 创建失败断开连接
 		}
-
 	}
-
-
 }

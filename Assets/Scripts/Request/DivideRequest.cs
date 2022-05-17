@@ -21,7 +21,6 @@ public class DivideRequest : BaseRequest
 	/// </summary>
 	public void RequestDivide() {
 		StartCoroutine(Divide());
-
 	}
 	IEnumerator Divide() {
 		Content send = new Content(ContentType.Default, actionCode, requestCode);

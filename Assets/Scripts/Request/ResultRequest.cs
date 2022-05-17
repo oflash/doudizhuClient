@@ -32,7 +32,7 @@ public class ResultRequest : BaseRequest
 		int douzi = bottom * double_;                       // 豆子
 		if (!win) douzi = -douzi;
 
-		gameFacade.UIMng.dicPanels[UIPanelType.TopLayerPanel].GetComponent<TopLayerPanel>().SetDouNum(douzi);		// 修改自己界面的豆子值
+		gameFacade.UIMng.dicPanels[UIPanelType.TopLayerPanel].GetComponent<TopLayerPanel>().SetDouNum(douzi);       // 修改自己界面的豆子值
 
 		ResultInfo info = new ResultInfo(double_, douzi, bottom);
 		string content = JsonConvert.SerializeObject(info);

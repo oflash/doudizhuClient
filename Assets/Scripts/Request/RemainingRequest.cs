@@ -28,12 +28,12 @@ public class RemainingRequest : BaseRequest
 	}
 
 	IEnumerator Remaining(int[] ids) {
-		string content = JsonConvert.SerializeObject(ids);
+string content = JsonConvert.SerializeObject(ids);
 
-		Content send = new Content(ContentType.CardList, actionCode, requestCode, content);
-		send.id = gameFacade.Id;
+Content send = new Content(ContentType.CardList, actionCode, requestCode, content);
+send.id = gameFacade.Id;
 
-		SendRequest(send);
+SendRequest(send);
 		gameFacade.WaitResponse(true);
 		yield return new WaitUntil(() => Response);
 		gameFacade.WaitResponse(false);
@@ -54,5 +54,4 @@ public class RemainingRequest : BaseRequest
 		}
 
 	}
-
 }

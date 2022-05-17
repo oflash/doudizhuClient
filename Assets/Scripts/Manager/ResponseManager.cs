@@ -14,7 +14,7 @@ public class ResponseManager : BaseManager
 	public Dictionary<ActionCode, BaseRequest> dicReq = new Dictionary<ActionCode, BaseRequest>();
 
 	public ResponseManager(GameFacade gameFacade) : base(gameFacade) {
-		
+
 	}
 
 
@@ -54,6 +54,5 @@ public class ResponseManager : BaseManager
 		// 简单显示
 		// gameFacade.ShowPromot(content.content);
 	}
-
 
 }

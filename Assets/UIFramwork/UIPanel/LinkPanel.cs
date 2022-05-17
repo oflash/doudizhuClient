@@ -101,24 +101,19 @@ public class LinkPanel : BasePanel
 				// 使用公网
 				if (!netToggle.isOn) {
 					room_num = port;
-					ip = "127.0.0.1";
 #if UNITY_ANDROID || UNITY_STANDALONE_WIN
-					// ip = "47.110.129.92";
 					ip = "liuzhiyi.me";
 #endif
-				//	ip = "127.0.0.1";
 					port = 9876;
 				}
 
 				if (_create != -1) {      // 如果是创建房间, _create 就是房间场景编号
-
 					if (netToggle.isOn) {   // 如果还是局域网内
 						GetComponent<LinkRequest>().OperServer(ip, port);       // 打开服务器并连接
 						GetComponent<JoinRoomRequest>().RequestJionRoom(true, room_num);      // 请求加入房间
 					} else {    // 使用公网
 						GetComponent<LinkRequest>().LinkServer(ip, port);       // 连接服务器
 						GetComponent<CreateRoomRequest>().RequestCreateRoom(room_num, _create);  // 创建房间, 成功后自动加入
-
 					}
 				} else {
 					GetComponent<LinkRequest>().LinkServer(ip, port);       // 连接服务器
