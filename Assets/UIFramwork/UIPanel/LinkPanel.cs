@@ -94,7 +94,7 @@ public class LinkPanel : BasePanel
 
 			if (portStr.Length == 4) {
 				port = int.Parse(portStr);
-				room_num = 0;
+				room_num = 11111;
 				PlayerInfo info = new PlayerInfo("None", Name, Sex);
 				info.other = "这是我的基本信息, 现在我要连接服务器, 请告诉我的id";
 
@@ -110,7 +110,9 @@ public class LinkPanel : BasePanel
 				if (_create != -1) {      // 如果是创建房间, _create 就是房间场景编号
 					if (netToggle.isOn) {   // 如果还是局域网内
 						GetComponent<LinkRequest>().OperServer(ip, port);       // 打开服务器并连接
-						GetComponent<JoinRoomRequest>().RequestJionRoom(true, room_num);      // 请求加入房间
+						GetComponent<CreateRoomRequest>().RequestCreateRoom(room_num, _create);  // 创建房间, 成功后自动加入
+
+						// GetComponent<JoinRoomRequest>().RequestJionRoom(true, room_num);      // 请求加入房间
 					} else {    // 使用公网
 						GetComponent<LinkRequest>().LinkServer(ip, port);       // 连接服务器
 						GetComponent<CreateRoomRequest>().RequestCreateRoom(room_num, _create);  // 创建房间, 成功后自动加入

@@ -12,9 +12,9 @@ public class ServerProcess
 	public static ServerProcess Instance => instance;
 	#endregion
 
-	string cmd = Application.streamingAssetsPath + "/Plugins/游戏服务器端.exe 127.0.0.1 9876";
+	string cmd = Application.streamingAssetsPath + "/Plugins/DoudizhuServer.exe 127.0.0.1 9876";
 	Process process;
-	public string fileName => Application.streamingAssetsPath + "/游戏服务器端.exe";  // 程序路径
+	public string fileName => Application.streamingAssetsPath + "/DoudizhuServer.exe";  // 程序路径
 	public string args => _ip + " " + _port;  // 命令行参数
 
 	public bool Running => running;     // 是否开启服务器

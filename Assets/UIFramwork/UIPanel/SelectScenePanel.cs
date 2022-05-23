@@ -47,10 +47,6 @@ public class SelectScenePanel : BasePanel
 		panelMask.GetComponent<Button>().enabled = true;
 	}
 
-
-
-
-
 	#region 鼠标点击事件
 	public void OnClickLeft() {
 		index = (index - 1 + Length) % Length;
@@ -85,7 +81,6 @@ public class SelectScenePanel : BasePanel
 		// Debug.Log(next.GetComponent<SceneSelectItem>().Id + ":" + index);
 		uiMng.PopStack(UIPanelType.SelectScenePanel);
 		uiMng.PushStack(UIPanelType.LinkPanel, true, index);         // 设置为创建房间
-
 	}
 
 	public void OnClickClose() {
