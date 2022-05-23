@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C83693F6-03AE-9CEE-9800-A0B9388A236A}</ProjectGuid>
+    <ProjectGuid>{000FEB02-B3BD-1510-3248-BE8C0984D19F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -125,25 +125,25 @@
      <None Include="Assets\UIFramwork\UIPanel\child\说明.txt" />
      <None Include="Assets\JsonDotNet\link.xml" />
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.34f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -347,19 +347,19 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.34f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Common">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Assets/Plugins/Common.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Assets/Plugins/Common.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/0学习&amp;资源/Task/引擎网络应用开发/客户端源码/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/unity/doudizhuClient/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.34f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

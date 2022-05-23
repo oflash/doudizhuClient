@@ -14,6 +14,7 @@ public class SelectScenePanel : BasePanel
 			return _sprites;
 		}
 	}
+	
 
 	Transform panelMask;
 	Transform curr, next;   // 移动的ItenSelect
