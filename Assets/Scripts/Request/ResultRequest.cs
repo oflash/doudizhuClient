@@ -22,7 +22,6 @@ public class ResultRequest : BaseRequest
 	}
 
 
-
 	/// <summary>
 	/// 计算好自己的豆子变化, 发送给服务器
 	/// </summary>

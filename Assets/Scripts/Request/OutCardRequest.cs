@@ -112,12 +112,14 @@ public class OutCardRequest : BaseRequest
 				gameFacade.PlayMusic(_audio, false);    // 播放报警音频
 			}
 
-			if (next == gameFacade.Id) {    // 轮到我出牌了
-				outCardPanel.Two_OutCard();
-			} else {                        // 不是我出牌, 显示出牌者的倒计时
-				int local_index = gameFacade.GetPlayer(next).local_index;
-				gamePanel.pokerS[local_index].ShowText_Content("Timing");
-				gamePanel.pokerS[local_index].GetComponentInChildren<PlayerTiming>().BeginTiming(20, null);
+			if (num != 0) {						// 还有剩余的牌
+				if (next == gameFacade.Id) {    // 轮到我出牌了
+					outCardPanel.Two_OutCard();
+				} else {                        // 不是我出牌, 显示出牌者的倒计时
+					int local_index = gameFacade.GetPlayer(next).local_index;
+					gamePanel.pokerS[local_index].ShowText_Content("Timing");
+					gamePanel.pokerS[local_index].GetComponentInChildren<PlayerTiming>().BeginTiming(20, null);
+				}
 			}
 
 			gameFacade.RecordLog(gameFacade.GetPlayer(content.id).Name + " 出牌", true);

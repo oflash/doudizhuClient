@@ -166,7 +166,4 @@ public class JoinRoomRequest : BaseRequest
 			gameFacade.WaitResponse(false);
 		}
 	}
-
-
-
 }

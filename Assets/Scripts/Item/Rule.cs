@@ -267,7 +267,7 @@ public class Rule
 			}
 
 			// 三带一, 三带一对, 四带二单
-			if (listType == CardType.sanDaiYi || listType == CardType.sanDaiYiDui) {
+			if (listType == CardType.sanDaiYi || listType == CardType.sanDaiYiDui || listType == CardType.siDaiEr) {
 				return list[list.Count / 2].grade > prev[prev.Count / 2].grade;
 			}
 
