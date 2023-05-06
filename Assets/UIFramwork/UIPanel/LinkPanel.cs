@@ -102,7 +102,7 @@ public class LinkPanel : BasePanel
 				if (!netToggle.isOn) {
 					room_num = port;
 #if UNITY_ANDROID || UNITY_STANDALONE_WIN
-					ip = "liuzhiyi.me";
+					ip = "outpos.cc";
 #endif
 					port = 9876;
 				}
