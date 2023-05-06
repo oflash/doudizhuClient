@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{02eb0f00-bdb3-1015-3248-be8c0984d19f}</ProjectGuid>
+    <ProjectGuid>{0c6d56ea-66c2-5538-f91d-207248ca4485}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>UnityEngine.UI</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_9;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_9;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,77 +36,91 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/Item/Card.cs" />
-     <Compile Include="Assets/Scripts/Item/CardType.cs" />
-     <Compile Include="Assets/Scripts/Item/Header.cs" />
-     <Compile Include="Assets/Scripts/Item/Player.cs" />
-     <Compile Include="Assets/Scripts/Item/PlayerTiming.cs" />
-     <Compile Include="Assets/Scripts/Item/Rule.cs" />
-     <Compile Include="Assets/Scripts/Item/SceneSelectItem.cs" />
-     <Compile Include="Assets/Scripts/Main/GameFacade.cs" />
-     <Compile Include="Assets/Scripts/Manager/BaseManager.cs" />
-     <Compile Include="Assets/Scripts/Manager/CameraManager.cs" />
-     <Compile Include="Assets/Scripts/Manager/PlayerManager.cs" />
-     <Compile Include="Assets/Scripts/Manager/ResponseManager.cs" />
-     <Compile Include="Assets/Scripts/Music/Audio.cs" />
-     <Compile Include="Assets/Scripts/Music/AudioInfo.cs" />
-     <Compile Include="Assets/Scripts/Music/AudioManager.cs" />
-     <Compile Include="Assets/Scripts/Music/AudioType.cs" />
-     <Compile Include="Assets/Scripts/Music/MusicExType.cs" />
-     <Compile Include="Assets/Scripts/Music/MusicType.cs" />
-     <Compile Include="Assets/Scripts/Net/ClientManager.cs" />
-     <Compile Include="Assets/Scripts/Net/Message.cs" />
-     <Compile Include="Assets/Scripts/Net/ServerProcess.cs" />
-     <Compile Include="Assets/Scripts/NewTest.cs" />
-     <Compile Include="Assets/Scripts/Request/AttackRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/BaseRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/ChatRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/CreateRoomRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/DivideRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/DoubleRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/HeaderRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/JoinRoomRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/LinkRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/MingCardRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/NoOutRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/OrderRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/OutCardRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/PromptRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/ReadyGameRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/RemainingRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/ResultRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/RobDiZhuRequest.cs" />
-     <Compile Include="Assets/Scripts/Request/WinRequest.cs" />
-     <Compile Include="Assets/Scripts/Test.cs" />
-     <Compile Include="Assets/UIFramwork/Base/BasePanel.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Panel/PanelInfo.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Panel/UIPanelAniType.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Panel/UIPanelType.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Prefab/PrefabInfo.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Prefab/PrefabType.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Sprite/SpriteInfo.cs" />
-     <Compile Include="Assets/UIFramwork/Base/Sprite/SpriteType.cs" />
-     <Compile Include="Assets/UIFramwork/Main/UIManager.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/CoverBG.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/GameOverPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/HeaderPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/JoinRoomPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/LinkPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/LoadingPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/PlayerInfoPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/PromptPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/RoomBG.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/SelectScenePanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/GamePanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/InputChatPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/LogPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/MingCardPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/OutCardPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/PokerSPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/RobDiZhuPanel.cs" />
-     <Compile Include="Assets/UIFramwork/UIPanel/child/TopLayerPanel.cs" />
-     <None Include="Assets/JsonDotNet/link.xml" />
-     <None Include="Assets/UIFramwork/UIPanel/child/说明.txt" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/AxisEventData.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/BaseEventData.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/PointerEventData.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventHandle.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventInterfaces.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventTrigger.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventTriggerType.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInputModule.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/PointerInputModule.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/TouchInputModule.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/MoveDirection.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/RaycastResult.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/RaycasterManager.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/BaseRaycaster.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/Physics2DRaycaster.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/PhysicsRaycaster.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/Properties/AssemblyInfo.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Animation/CoroutineTween.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/AnimationTriggers.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/CanvasUpdateRegistry.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ColorBlock.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/ClipperRegistry.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/Clipping.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/IClipRegion.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/RectangularVertexClipper.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/DefaultControls.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Dropdown.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/FontData.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/FontUpdateTracker.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRebuildTracker.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRegistry.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IGraphicEnabledDisabled.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IMask.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IMaskable.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/InputField.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/AspectRatioFitter.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/ILayoutElement.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutRebuilder.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutUtility.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Mask.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskUtilities.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaterialModifiers/IMaterialModifier.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Misc.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MultipleDisplayUtilities.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Navigation.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RawImage.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SetPropertyUtility.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SpecializedCollections/IndexedSet.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SpriteState.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/StencilMaterial.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ListPool.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ObjectPool.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ReflectionMethodsCache.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/VertexHelper.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/BaseMeshEffect.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/IMeshModifier.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Outline.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/PositionAsUV1.cs" />
+     <Compile Include="/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Shadow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -283,6 +297,21 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+        <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+        <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+        <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Common">
         <HintPath>/home/liuzhiyi/Documents/Unity/doudizhuClient/Assets/Plugins/Common.dll</HintPath>
@@ -644,44 +673,6 @@
     <Reference Include="Boo.Lang">
         <HintPath>/home/liuzhiyi/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{ebfbf208-cb93-2c27-db27-fd6e9abd91ff}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{d4a83c6d-9f1c-d935-c856-3fb50da96630}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{8b87cc4f-6689-a121-9ae1-3ef93ac4211e}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{0c6d56ea-66c2-5538-f91d-207248ca4485}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{8e93b1d4-d05a-c8c4-fe2a-4402414820c8}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{3cf6389a-670c-4ac1-e1f2-4b56398a4f24}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{6c1c60e5-8c3f-95cc-881d-c51bf1e6099f}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{fcc0669b-1d39-8dc8-61d8-7fd723c20b42}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8f7590a8-05f3-f83c-017b-2b8f14f75c73}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
